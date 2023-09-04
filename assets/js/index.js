@@ -1,0 +1,10 @@
+ingresarMonto = document.querySelector("#enterData");
+tipoMoneda = document.querySelector(".cointype");
+bntBuscar = document.querySelector("#buttonsearch");
+ingresarMonto.style.marginTop = "1rem";
+ingresarMonto.style.width = "20rem";
+ingresarMonto.style.height = "2rem";
+bntBuscar.style.width = "20rem";
+bntBuscar.style.height = "2rem";
+tipoMoneda.style.width = "20rem";
+tipoMoneda.style.height = "2rem";
