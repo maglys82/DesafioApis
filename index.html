@@ -15,22 +15,35 @@
     <main>
         <h3>Pesos CLP</h3>
         <section>
-            <input id="enterData" value="Ingrese el Monto en CLP"/>
+            <input id="enterData" placeholder="Ingrese el Monto en CLP" />
         </section>
         <h4>Moneda a Convertir:</h4>
         <select class="cointype">
             <option value="value0">Seleccione Moneda</option>
-            <option value="value1">Dolar</option>
-            <option value="value2">Pesos</option>
+            <option value="dolar">Dolar</option>
+            <option value="euro">Euro</option>
         </select>
         <section>
             <button id="buttonsearch">Buscar</button>
         </section>
 
+        <section>
+            <h2>Resultados: $  
+                <span class="result"> 0 </span>
+            </h2>
+        </section>
+        <section>
+            <h2 class="message"></h2>
+        </section>
+
+        <h2>Grafica</h2>
+        <div class="grafica">
+        <canvas id="myChart"></canvas>
 
     </main>
 
 </body>
-<script src="assets/js/index.js"></script>
+<script src="assets/js/index.js" , src="https://cdn.jsdelivr.net/npm/chart.js">
+</script>
 
 </html>
